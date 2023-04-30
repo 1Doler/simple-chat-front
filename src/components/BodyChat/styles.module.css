@@ -1,0 +1,46 @@
+.container {
+  margin-left: 20px;
+}
+.bodyChat {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 1fr;
+}
+
+.header {
+  border-bottom: 1px solid #6eaa5e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn {
+  background-color: #ff4700;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.sender {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+}
+.sender .text {
+  background-color: #8dc27e;
+}
+.user {
+  font-weight: 300;
+  color: #7f7f7f;
+}
+.text {
+  word-wrap: break-word;
+  padding: 10px;
+  background-color: lightgray;
+  width: 280px;
+  border-radius: 10px;
+  text-align: left;
+}

@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  height: 100vh;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.title {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #6eaa5e;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 3px;
+  color: #6eaa5e;
+}
+.inp {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 7px;
+  border-radius: 5px;
+  border: 2px solid silver;
+  margin-bottom: 10px;
+}
+.inp:focus {
+  outline: none;
+  border: 2px solid #6eaa5e;
+}
+.btn {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6eaa5e;
+  color: white;
+}
