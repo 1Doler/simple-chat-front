@@ -12,3 +12,18 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+input {
+  box-shadow: 2px 2px 0px #ffffff, 5px 4px 0px #4a723f;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 7px;
+  border-radius: 5px;
+  border: 2px solid silver;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-out;
+  border: 2px solid #6eaa5e;
+}
+input::placeholder {
+  color: silver;
+}

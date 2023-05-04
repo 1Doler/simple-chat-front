@@ -1,16 +1,28 @@
 .chat {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  height: 100vh;
-  padding: 20px 10px;
+  align-items: center;
+  vertical-align: middle;
 }
 .chat_block {
+  margin-top: 40px;
+  height: 90vh;
+  width: 60vw;
+  border: 3px solid #bf9f5b;
+  background-color: #f3dda9;
+  box-shadow: 10px 10px 0px #bf9f5b;
+  padding: 0 30px 30px 30px;
+  border-radius: 100px 20px;
   display: grid;
   grid-template-columns: 0.16fr 1fr;
-  height: 100vh;
 }
 .main {
   display: flex;
+
   flex-direction: column;
   justify-content: space-between;
+  /* background-image: url(../../components/images/1252031.webp);
+  background-size: cover;
+  border-radius: 0 20px 20px 0; */
 }

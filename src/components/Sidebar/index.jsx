@@ -6,7 +6,9 @@ export const Sidebar = ({ socket }) => {
 
   useEffect(() => {
     socket.on("responseNewUser", (data) => {
-      setUsers(data);
+      console.log(data);
+      console.log("id", data[localStorage.getItem("chatId")]);
+      setUsers(data[localStorage.getItem("chatId")]);
     });
   }, [socket, users]);
   return (

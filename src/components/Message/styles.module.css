@@ -4,6 +4,8 @@
 .message_block form {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .typing {
   font-weight: 300;
@@ -23,13 +25,21 @@
   outline: none;
   border: 2px solid #7f7f7f;
 }
+
 .btn {
-  font-size: 15px;
-  cursor: pointer;
-  background-color: #336120;
-  color: white;
-  width: 95px;
-  padding: 10px;
+  box-shadow: 2px 2px 0px #ffffff, 5px 4px 0px #4a723f;
+  font-size: 1.2vw;
+  font-weight: 400;
+  padding: 7px;
+  border-radius: 5px;
   border: none;
-  border-radius: 8px;
+  background-color: #6eaa5e;
+  color: white;
+  cursor: pointer;
+  transition: all 500ms;
+  width: 6vw;
+}
+.btn:hover {
+  background-color: #4a723f;
+  border: 2px solid white;
 }

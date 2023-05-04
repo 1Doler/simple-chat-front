@@ -17,6 +17,7 @@ export const Message = ({ socket }) => {
       name: userName,
       id: `${socket.id}-${Math.random()}`,
       socketId: socket.id,
+      chatId: localStorage.getItem("chatId"),
     });
     setMessage("");
   };
